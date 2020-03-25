@@ -1,1 +1,1 @@
-# Competetive-Coding-using-C-
+# Competitive-Coding-using-C-
