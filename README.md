@@ -2,6 +2,7 @@
 <h3>Standard Template Library Quickstart </h3>
 <ul>
   <li>Find Function</li>
+  <li>Frequency of Elements</li>
   <li>Binary Search</li>
   <li>String Initializations</li>
   <li>String Functions</li>
