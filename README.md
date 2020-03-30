@@ -6,6 +6,7 @@
   <li>String Initializations</li>
   <li>String Functions</li>
   <li>String Sorting</li>
+  <li>String Tokenizer</li>
   <li>Vectors-Tokenizer</li>
   <li>Vectors-Methods</li>
   <li>List</li>
