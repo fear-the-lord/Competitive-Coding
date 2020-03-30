@@ -21,5 +21,6 @@
   <li>Unordered Maps</li>
   <li>Hash Function Implementation using Multimaps</li>
   <li>Sets</li>
+  <li>Multiset</li>
  </ul>
   
