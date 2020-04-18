@@ -23,4 +23,17 @@
   <li>Sets</li>
   <li>Multiset</li>
  </ul>
+ 
+ <h3>Recursion & Backtracking</h3>
+ <ul>
+  <li>Factorial</li>
+  <li>Fibonacci Number</li>
+  <li>Identifying Sorted Arrays</li>
+  <li>Power Function</li>
+  <li>Fast Power</li>
+  <li>Increasing & Decreasing Numbers</li>
+  <li>Number Multiply</li>
+  <li>String To Integer</li>
+  <li>Number To Words(The 2048 Problem)</li>
+ </ul>
   
