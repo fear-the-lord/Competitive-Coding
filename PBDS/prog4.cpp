@@ -1,3 +1,6 @@
+// Inversion Count. Find all pairs of elements (i, j) such that 
+// i < j and a[i] > a[j]. 
+
 #include <bits/stdc++.h>
 
 
