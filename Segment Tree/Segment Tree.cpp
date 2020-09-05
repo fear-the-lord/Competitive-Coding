@@ -22,6 +22,24 @@ void build_tree(int *arr, int s, int e, int *tree, int index) {
 	return; 
 }
 
+int query(int *tree, int s, int e, int qs, int qe, int index) {
+	// Complete overlap 
+	if(s >= qs && e <= qe) {
+		return tree[index];
+	}
+	
+	// No overlap 
+	if(qe < s || qs > e) {
+		return INT_MAX;
+	}
+	
+	// Partial Overlap
+	int mid = (s + e) / 2; 
+	int left = query(tree, s, mid, qs, qe, 2 * index); 
+	int right = query(tree, mid + 1, e, qs, qe, 2 * index + 1);
+	return min(left, right);
+}
+
 int main() {
 	
 	int arr[] = {1, 3, 2, -5, 6, 4};
@@ -30,8 +48,16 @@ int main() {
 	build_tree(arr, 0, n - 1, tree, 1);
 	
 	// Print the tree 
-	for(int i = 1; i <= 13; i++) {
-		cout << tree[i] << " ";
-	} 
+//	for(int i = 1; i <= 13; i++) {
+//		cout << tree[i] << " ";
+//	} 
+
+	int q; 
+	cin >> q; 
+	while(q--) {
+		int l, r; 
+		cin >> l >> r; 
+		cout << query(tree, 0, n - 1, l, r, 1);
+	}
 	return 0;
 }
