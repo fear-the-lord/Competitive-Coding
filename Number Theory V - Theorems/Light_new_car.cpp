@@ -45,7 +45,7 @@ int main() {
 	ll t;
 	cin >> t;
 	
-	String a, b;
+	string a, b;
 	
 	while(t--) {
 		cin >> a >> b;
