@@ -18,6 +18,7 @@ void multiply(int a[], int &n, int no) {
 		n++;
 	}
 }
+// Function definition
 
 void factorial_big(int number) {
 	int a[1005] = {0};
