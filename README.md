@@ -33,7 +33,7 @@
   <li>Fast Power</li>
   <li>Increasing & Decreasing Numbers</li>
   <li>Number Multiply</li>
-  <li>String To Integer</li>
+  <li>String To Integers</li>
   <li>Number To Words(The 2048 Problem)</li>
  </ul>
   
