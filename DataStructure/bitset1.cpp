@@ -6,5 +6,5 @@ using namespace std;
  	cout<<a.count()<<"\n";
     cout<<(a&b)<<"\n";
     cout<<(a|b)<<"\n";
-    cout<<(a^b)<<"\n";
+    cout<<(a^b )<<"\n";
 }
