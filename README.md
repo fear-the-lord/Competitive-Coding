@@ -36,4 +36,6 @@
   <li>String To Integers</li>
   <li>Number To Words(The 2048 Problem)</li>
  </ul>
+ 
+ <h3>Number Theory</h3>
   
